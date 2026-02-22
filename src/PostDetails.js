@@ -25,7 +25,7 @@ function PostDetails() {
       });
   }, [id]);
 
-  if (loading) return <h2>Loading post...</h2>;
+  if (loading) return <h2>Loading  post...Wait for it</h2>;
   if (error) return <h2 style={{color:"red"}}>{error}</h2>;
 
   return (
